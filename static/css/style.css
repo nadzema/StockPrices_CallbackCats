@@ -58,10 +58,11 @@ ul {
 
 
 body {
-  background-image: radial-gradient(rgba(31, 11, 11, 0.342), rgb(143, 148, 141), rgb(96, 99, 99));;
+  background-image: radial-gradient(rgb(252, 252, 252), rgba(48, 51, 46, 0.534), rgb(0, 0, 0));;
 }
 
 .container {
+  color:rgb(0, 0, 0);
   border-color: rgb(243, 240, 240);
   border: 7px dotted;  
   border-style: dotted;
@@ -77,4 +78,35 @@ h1 {
   text-align: center;
 
   line-height: 50px;
+}
+
+.logo-image{
+  width: 260px;
+  height: 100px;
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+  margin-left: 20px;
+  margin-top: 5px;
+  margin-right: 200px;
+}
+
+.logo-image2{
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+  position: absolute;
+  z-index: 2;
+  right: 100px;
+  top: 10px;
+}
+
+.logo-image3{
+  border-radius: 50%;
+  overflow: hidden;
+  margin-top: -6px;
+  position: absolute;
+  z-index: 2;
+  right: 486px;
+  top: 10px;
 }
