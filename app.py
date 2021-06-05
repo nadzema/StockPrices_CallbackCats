@@ -18,28 +18,21 @@ def home():
     return render_template("index.html")
 
 @app.route("/all_stocks.html")
-def about():
+def all():
     return render_template("/all_stocks.html")
 
 @app.route("/top10stocks.html")
-def map():
+def top():
     return render_template("/top10stocks.html")
 
 @app.route("/winning.html")
-def teams():
+def winning():
     return render_template("/winning.html")
 
-# @app.route("/batting_avg.html")
-# def batting_avg():
-#     return render_template("/batting_avg.html")
+@app.route("/losing.html")
+def losing():
+    return render_template("/losing.html")
 
-# @app.route("/earn_run_avg.html")
-# def earn_run_avg():
-#     return render_template("/earn_run_avg.html")c
-
-# @app.route("/pie_charts.html")
-# def pie_charts():
-#     return render_template("/pie_charts.html")
 
 #Debug
 if __name__ == '__main__':

@@ -4,9 +4,47 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
     <title>Document</title>
 </head>
 <body>
     
+    <!--NavBar-->
+    <ul>
+        <li><a href="/all_stocks.html">All Stocks</a></li>
+        <li><a href="/top10stocks.html">Top 10 Stocks</a></li>
+
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Winning/Losing Stocks</a>
+            <div class="dropdown-content">
+              <a href="/winning.html">Outperformed Market</a>
+              <a href="/losing.html">Didn't Perform Market</a>
+
+            </div>
+        <li style="float:left"><a class="active" href="/">Home</a></li>   
+        
+    </ul>
+
+
+    <div class="container">
+        <h1>Worst performing Stocks in the S&P 500 </h1>
+        <p>
+            The stocks presented are the worst S&P 500 stocks based on future performance that is being compared to the index.   
+        </p>
+        <p>
+            We have included a line chart from the results of our analysis showing how poor of a performance these stocks are compared to the index. <br> A line with a negative slope (slant down) shows the change in price over time...meaning you better sell your stock based on predictions from our Linear Regression Model.  
+        </p>
+
+        <!-- <div class="stock_image1">
+          <img src="static/img/day_stadium.jpg" alt="Day Stadium Image" width="450" height="350">
+          </div>
+      
+          <div class="stock_image2">
+          <img src="static/img/night_stadium.jpg" alt="Night Stadium Image" width="450" height="350">
+          </div> -->
+
+    </div>
+
+
 </body>
 </html>

@@ -4,9 +4,36 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="/static/css/style.css">
+
     <title>Document</title>
 </head>
 <body>
     
+    <!--NavBar-->
+    <ul>
+        <li><a href="/all_stocks.html">All Stocks</a></li>
+        <li><a href="/top10stocks.html">Top 10 Stocks</a></li>
+
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Winning/Losing Stocks</a>
+            <div class="dropdown-content">
+              <a href="/winning.html">Outperformed Market</a>
+              <a href="/losing.html">Didn't Perform Market</a>
+
+            </div>
+        <li style="float:left"><a class="active" href="/">Home</a></li>   
+        
+    </ul>
+
+    <div class="container">
+        <h1>Top Stocks on the S&P 500 list: </h1>
+        <p>
+            These stocks were the ones that outperformed the S&P 500 stock based on their change in price per day (slope).
+        </p>
+        <p>
+            We have included a line chart of the results of our top stocks using Linear Regression Machine Learning to find the regression line (showing the compare/contrast of the lines).  
+        </p>
+
 </body>
 </html>

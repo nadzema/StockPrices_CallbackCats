@@ -47,7 +47,7 @@ ul {
   text-align: left;
 }
 
-.dropdown-content a:hover {background-color: #f1f1f1;}
+.dropdown-content a:hover {background-color: #f5593d;}
 
 .dropdown:hover .dropdown-content {
   display: block;
@@ -58,18 +58,19 @@ ul {
 
 
 body {
-  background-color: #fafafa;
+  background-image: radial-gradient(rgba(31, 11, 11, 0.342), rgb(143, 148, 141), rgb(96, 99, 99));;
 }
 
 .container {
-
-  border: 3px solid;  
+  border-color: rgb(243, 240, 240);
+  border: 7px dotted;  
+  border-style: dotted;
   width: 65%;
   margin: auto; 
   line-height:1.7em; 
-  font-family: Arial, Helvetica, sans-serif;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
   text-align: center;
-  background-image: linear-gradient(rgb(7, 14, 85), yellow);
+  font-size: larger;
 }
 
 h1 {
