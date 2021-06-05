@@ -11,29 +11,42 @@
     
     <!--NavBar-->
     <ul>
-        <li><a href="/all_stocks.html">All Stocks</a></li>
-        <li><a href="/top10stocks.html">Top 10 Stocks</a></li>
+        <li style="float:left"><a class="active" href="/">Home</a></li>   
+        <li><a href="/all_stocks.html">S&P 500</a></li>
+     
+
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Winning/Losing Stocks</a>
+            <div class="dropdown-content">
+              <a href="/winning.html">Winning Stocks</a>
+              <a href="/losing.html">Worst Stocks</a>
+              <a href="/top10stocks.html">Runner-Ups</a>
+
+            </div>
+        
+        <!-- <li><a href="/all_stocks.html">S&P 500</a></li>
+     
 
         <li class="dropdown">
             <a href="javascript:void(0)" class="dropbtn">Winning/Losing Stocks</a>
             <div class="dropdown-content">
               <a href="/winning.html">Outperformed Market</a>
               <a href="/losing.html">Didn't Perform Market</a>
+              <a href="/top10stocks.html">Winning Stocks</a>
 
             </div>
-        <li style="float:left"><a class="active" href="/">Home</a></li>   
+        <li style="float:left"><a class="active" href="/">Home</a></li>    -->
         
     </ul>
 
 
     <div class="container">
         <h1>Worst performing Stocks in the S&P 500: </h1>
-        <p>
-            The stocks presented are the worst S&P 500 stocks based on future performance that is being compared to the index.   
-        </p>
-        <p>
-            We have included a line chart from the results of our analysis showing how poor of a performance these stocks are compared to the index. <br> A line with a negative slope (slant down) shows the change in price over time...meaning you better sell your stock based on predictions from our Linear Regression Model.  
-        </p>
+        <h2>
+            Here are some of the worst performing stocks. 
+        </h2>
+        <h3>
+            Might not want to invest in these any time soon!         </h3>
 
         <!-- <div class="stock_image1">
           <img src="static/img/day_stadium.jpg" alt="Day Stadium Image" width="450" height="350">
@@ -45,6 +58,12 @@
 
     </div>
 
+    <img src="static/img/worst_stocks/KHC_plot.png" alt="KHC vs. SP500">
+    <img src="static/img/worst_stocks/APA_plot.png" alt="APA vs. SP500">
+    <img src="static/img/worst_stocks/PRGO_plot.png" alt="PRGO vs. SP500">
+    <img src="static/img/worst_stocks/RL_plot.png" alt="RL vs. SP500">
+    <img src="static/img/worst_stocks/IBM_plot.png" alt="IBM vs. SP500">
+    <img src="static/img/worst_stocks/OXY_plot.png" alt="OXY vs. SP500">
 
 </body>
 </html>

@@ -12,7 +12,20 @@
 
     <!--NavBar-->
     <ul>
-        <li><a href="/all_stocks.html">All Stocks</a></li>
+        <li style="float:left"><a class="active" href="/">Home</a></li>   
+        <li><a href="/all_stocks.html">S&P 500</a></li>
+     
+
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Winning/Losing Stocks</a>
+            <div class="dropdown-content">
+              <a href="/winning.html">Winning Stocks</a>
+              <a href="/losing.html">Worst Stocks</a>
+              <a href="/top10stocks.html">Runner-Upss</a>
+
+            </div>
+        
+        <!-- <li><a href="/all_stocks.html">All Stocks</a></li>
         <li><a href="/top10stocks.html">Top 10 Stocks</a></li>
 
         <li class="dropdown">
@@ -22,20 +35,20 @@
               <a href="/losing.html">Didn't Perform Market</a>
 
             </div>
-        <li style="float:left"><a class="active" href="/">Home</a></li>   
+        <li style="float:left"><a class="active" href="/">Home</a></li>    -->
         
     </ul>
 
     <div class="container">
-        <h1>Best performing Stocks in the S&P 500 that didn't outperform the S&P 500 index:  </h1>
+        <h1>We have some Winners!</h1>
+        <h3>NVR, Inc. and Amazon</h3>
+        <h2>
+            According to our Machine Learning Model, the stocks below are the most likely to beat the market in the future. Better start investing now!
+        </h2>
         <p>
-            The stocks presented are the best S&P 500 stocks based on future performance that is being compared to the index. 
-        </p>
-        <p>
-            We have included a line chart from the results of our analysis showing how exceptional of a performance these stocks did & still compare them to the index. <br> A line with a positive slope (slant up) shows the change in price over time...meaning you better buy some more stock based on predictions from our Linear Regression Model.  
         </p>
         
-        <!-- <div class="stock_image1">
+        <!-- <div class=tock_image1">
           <img src="static/img/day_stadium.jpg" alt="Day Stadium Image" width="450" height="350">
           </div>
       
@@ -44,5 +57,7 @@
           </div> -->
 
     </div>
+    <img src="static/img/winning_stocks/NVR_plot.png" alt="NVR vs. SP500">
+    <img src="static/img/winning_stocks/AMZN_plot.png" alt="AMZN vs. SP500">
 </body>
 </html>

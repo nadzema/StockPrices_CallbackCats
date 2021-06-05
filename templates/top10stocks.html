@@ -12,7 +12,20 @@
     
     <!--NavBar-->
     <ul>
-        <li><a href="/all_stocks.html">All Stocks</a></li>
+        <li style="float:left"><a class="active" href="/">Home</a></li>   
+        <li><a href="/all_stocks.html">S&P 500</a></li>
+     
+
+        <li class="dropdown">
+            <a href="javascript:void(0)" class="dropbtn">Winning/Losing Stocks</a>
+            <div class="dropdown-content">
+              <a href="/winning.html">Winning Stocks</a>
+              <a href="/losing.html">Worst Stocks</a>
+              <a href="/top10stocks.html">Runner-Ups</a>
+
+            </div>
+        
+        <!-- <li><a href="/all_stocks.html">All Stocks</a></li>
         <li><a href="/top10stocks.html">Top 10 Stocks</a></li>
 
         <li class="dropdown">
@@ -22,17 +35,16 @@
               <a href="/losing.html">Didn't Perform Market</a>
 
             </div>
-        <li style="float:left"><a class="active" href="/">Home</a></li>   
+        <li style="float:left"><a class="active" href="/">Home</a></li>    -->
         
     </ul>
 
     <div class="container">
-        <h1>Top Stocks on the S&P 500 list: </h1>
+        <h1>Some Runner Ups Worth Mentioning</h1>
+        <h2>
+            Here are some of the top performing stocks that did not beat the market
+        </h2>
         <p>
-            These stocks were the ones that outperformed the S&P 500 stock based on their change in price per day (slope).
-        </p>
-        <p>
-            We have included a line chart of the results of our top stocks using Linear Regression Machine Learning to find the regression line (showing the compare/contrast of the lines).  
         </p>
 
         <!-- <div class="stock_image1">
@@ -44,6 +56,10 @@
           </div> -->
           
     </div>
+    <img src="static/img/runnerup_stocks/BKNG_plot.png" alt="BKNG vs. SP500">
+    <img src="static/img/runnerup_stocks/GOOG_plot.png" alt="GOOG vs. SP500">
+    <img src="static/img/runnerup_stocks/GOOGL_plot.png" alt="GOOGL vs. SP500">
+    <img src="static/img/runnerup_stocks/AZO_plot.png" alt="AZO vs. SP500">
 
 </body>
 </html>

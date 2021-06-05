@@ -13,23 +13,8 @@
 
 <body>
 
-    <a class="navbar-brand" href="/">
-        <div class="logo-image">
-              <img src="../static/img/stocks.jpg" class="img-fluid" width="375" height="130">
-        </div>
-    </a>
+        
 
-    <a class="navbar-brand" href="/">
-        <div class="logo-image2">
-              <img src="../static/img/wall.jpg" class="img-fluid" width="300" height="111">
-        </div>
-    </a>
-
-    <a class="navbar-brand" href="/">
-        <div class="logo-image3">
-              <img src="../static/img/market_going_up1.jpg" class="img-fluid" width="400" height="111">
-        </div>
-    </a>
 
     <!--NavBar-->
 
@@ -51,29 +36,31 @@
         </div>
       </header> -->
 
-    <ul>
-        <li><a href="/all_stocks.html">All Stocks</a></li>
-        <li><a href="/top10stocks.html">Top 10 Stocks</a></li>
+      <ul>
+        <li style="float:left"><a class="active" href="/">Home</a></li>  
+        <li><a href="/all_stocks.html">S&P 500</a></li>
+     
 
         <li class="dropdown">
             <a href="javascript:void(0)" class="dropbtn">Winning/Losing Stocks</a>
             <div class="dropdown-content">
-              <a href="/winning.html">Outperformed Market</a>
-              <a href="/losing.html">Didn't Perform Market</a>
+              <a href="/winning.html">Winning Stocks</a>
+              <a href="/losing.html">Worst Stocks</a>
+              <a href="/top10stocks.html">Runner-Upss</a>
 
             </div>
-        <li style="float:left"><a class="active" href="/">Home</a></li>   
         
-    </ul>
+        
+          </ul>
 
     <div class="container">
-        <h1>S&P 500 Stocks: Which stocks will <br>outperform the market? </h1>
-        <p>
-            When comparing each stock and it's competitor...the S&P 500 stock, we have grabbed data and used Linear Regression Machine Learning to determine which future stock price will theoretically outperform the other.
-        </p>
-        <p>
-            We have added results of a few important stocks and how they compare to the S&P 500.
-        </p>
+        <h1>Machine Learning: A Smarter Way To Invest</h1>
+        <h2> Can a robot predicit which stocks will beat the market? </h2>
+          <h3>We built a machine learning application to find out!  </h3>
+          
+          <img src="static/img/technology-background.jpg" alt="techy stuff" class="center1" width="1100" height="550">
+          <p><br></p>
+        
          <!-- <div class="stock_image1">
           <img src="static/img/day_stadium.jpg" alt="Day Stadium Image" width="450" height="350">
           </div>
